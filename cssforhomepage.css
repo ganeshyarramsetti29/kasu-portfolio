@@ -1,0 +1,126 @@
+
+body 
+{
+  background-color: #000000; /* or just "black" */
+  color: #ffffff;            /* white text for contrast */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.top-right-message-Skills {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 10px;              /* distance from the top */
+  right: 220px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+                            /* optional: slightly lighter background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;          /* ensures it's above other elements */
+}
+.top-right-message-About {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 10px;              /* distance from the top */
+  right: 305px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+                            /* optional: slightly lighter background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;          /* ensures it's above other elements */
+}
+.top-right-message-Home {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 10px;              /* distance from the top */
+  right: 390px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+                           /* optional: slightly lighter background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;          /* ensures it's above other elements */
+}
+.top-right-message-Projects {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 10px;              /* distance from the top */
+  right: 120px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+                           /* optional: slightly lighter background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;          /* ensures it's above other elements */
+}
+.top-right-message-Contact {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 10px;              /* distance from the top */
+  right: 25px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+                           /* optional: slightly lighter background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;          /* ensures it's above other elements */
+}
+
+
+
+.image-container {
+top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+}
+
+/* Style for circular image */
+.image-container img {
+   
+  width: 300px;           /* or any size you want */
+  height: 300px;
+  object-fit: cover;      /* crops the image nicely */
+  border-radius: 50%;     /* makes it a circle */
+  border: 4px solid white; /* optional white border */
+  margin-bottom:90px;
+animation: float 3s ease-in-out infinite;  /* this uses the 'float' animation */
+}
+  @keyframes float
+ {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+.photo-down-name
+{
+position: fixed;        /* stays in place even when you scroll */
+  top: 475px;              /* distance from the top */
+  right: 620px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+  
+  
+  font-size: 20px;
+  z-index: 1000; 
+}
+.photo-down-myname
+{
+position: fixed;        /* stays in place even when you scroll */
+  top: 450px;              /* distance from the top */
+  right: 675px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+  
+  
+  font-size: 10px;
+  z-index: 1000; 
+}
+.port-purpose {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 15px;              /* distance from the top */
+  left: 15px;            /* distance from the right */
+  color: #ffffff;         /* white text */
+}  
+.folio-purpose {
+  position: fixed;        /* stays in place even when you scroll */
+  top: 15px;              /* distance from the top */
+  left: 100px;            /* distance from the right */
+  color: #FF0000;;         /* red colour text */
+}  
